@@ -22,6 +22,7 @@ public class Gaulois {
 		return "Le gaulois " + nom + " : ";
 	}
 
+
 	public void frapper(Romain romain) {
 		String nomRomain = romain.getNom();
 		System.out.println(nom + " envoie un grand coup dans la mâchoire de " + nomRomain);
@@ -31,6 +32,7 @@ public class Gaulois {
 			effetPotion = effetPotion - 1;
 		}
 	}
+
 
 	public void boirePotion(int forcePotion) {
 		effetPotion = forcePotion;
