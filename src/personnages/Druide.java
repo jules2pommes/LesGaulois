@@ -35,7 +35,7 @@ public class Druide {
 		String nomGaulois = gaulois.getNom();
 		
 		if (contientPotion) {
-			if (nomGaulois == "Obélix") {
+			if ("Obélix".equals(nomGaulois)) {
 				parler("Non, " + nomGaulois + " non !... Et tu le sais très bien !");
 			} else {
 				int forcePotion = chaudron.prendreLouche();
